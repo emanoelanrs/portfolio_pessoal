@@ -1,0 +1,92 @@
+/* Aplicação de estilos para a seção portfólio*/
+.portfolio_titulo h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #F7B6D6;
+    text-align: center;
+}
+.portfolio_titulo a {
+    text-decoration: none;
+    color: #d9a5ec;
+    font-size: 19px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    border: 2px solid #cc88e5;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    padding: 8px 10px; /* Adiciona um espaço interno ao redor do texto */
+}
+.portfolio_titulo a:hover {
+    background-color: #d25593; /* Altera a cor de fundo ao passar o mouse */
+    color: rgb(251, 251, 251); /* Altera a cor do texto ao passar o mouse */
+}
+/* Aplicação de estilo para o formulário */
+#Contato {
+    background-color: #6C0F3D;
+    padding: 20px;
+}
+#Contato h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #efe6eafc;
+    font-size: 60px;
+}
+#Contato form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#Contato .form_grupo {
+    margin-bottom: 15px;
+}
+#Contato label {
+    display: block;
+    margin-bottom: 5px;
+    color: #faf8faee;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+#Contato input[type="text"],
+#Contato input[type="email"],
+#Contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #beb3b3;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#Contato .submit_button {
+    background-color: #d0549d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#Contato .submit_button:hover {
+    background-color: #a1386a;
+}
+.form_grupo {
+    margin-bottom: 15px;
+}
+.input_text:focus, .input_textarea:focus {
+    border-color: #cc006d;
+    box-shadow: 0 0 5px rgba(190, 0, 204, 0.5);
+    outline: none;
+}
+.input_textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+/*Aplicação de estilo para o ícone*/
+.inicio{
+    position: fixed;
+    bottom: 2.1rem;
+    display: flex;
+    color: rgb(76, 23, 66);
+    background: #da55e1e2;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}

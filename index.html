@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio_Pessoal</title>
+    <!-- Link para utilização de ícones -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Folhas de estilo (CSS) -->
+    <link rel="stylesheet" href="styles.css/style_inicio.css">
+    <link rel="stylesheet" href="styles.css/sobre_mim.css">
+    <link rel="stylesheet" href="styles.css/port_conta.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#Mim">Sobre Mim</a>
+        <a href="#Formacao">Formação</a>
+        <a href="#Portfolio">Portfólio</a>
+        <a href="#Contato">Contato</a>
+    </header>
+    <!-- Página principal -->
+    <section class="pagina_principal">
+        <div class="pagina_principal_conteudo">
+            <h3>Olá, meu nome é</h3>
+            <h1>Emanoela Neris </h1>
+            <div class="pagina_principal_img">
+                <img class="bordas_img" src="imagens/imagem_inicio.png" alt="Foto principal">
+            </div>
+            <div class="pagina_principal_redes_sociais">
+                <a href="https://www.linkedin.com/in/emanoela-neris-434132a3/" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/emanoelanrs"><i class='bx bxl-github' target="_blank"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Sobre Mim -->
+    <section>
+        <div class="sobre_mim" id="Mim">
+            <div class="sobre_mim_img">
+                <img src="imagens/imagem_inicio.png" class="sobre_mim_perfil">
+            </div>
+            <div class="sobre_mim_texto">
+                <h2>Sobre mim</h2>
+                <p> Como estudante de Tecnologia da Informação, estou empenhada em aprimorar minhas
+                    habilidades em programação e resolução de problemas com determinação e foco.
+                    Para isso, concluí cursos em áreas essenciais, incluindo Lógica de Programação pelo
+                    Curso em Vídeo, front-end pela Alura e Banco de Dados pela Udemy.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Formação -->
+    <section id="Formacao">
+        <div class="sobre_mim">
+            <div class="sobre_mim_img">
+                <img src="imagens/computador.png" class="sobre_mim_perfil">
+            </div>
+            <div class="sobre_mim_texto">
+                <h2>Formação</h2>
+                <p> Atualmente, estou cursando o 4° período de Análise e Desenvolvimento de Sistemas
+                    na Faculdade Uninter - Centro Universitário.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Portfólio -->
+    <section id="Portfolio">
+        <div class="sobre_mim">
+            <div class="sobre_mim_texto">
+                <h2 class="portfolio_titulo">Portfólio</h2>
+                <p> Nesta seção se encontram os links do GitHub para outros projetos que criei</p>
+            </div>
+            <div class="portfolio_titulo">
+                <a href="https://github.com/emanoelanrs/projetocss3" target="_blank">ProjetoCSS3</a>
+                <a href="https://github.com/emanoelanrs/Curso-alura" target="_blank">AluraPlus</a>
+                <a href="https://github.com/emanoelanrs/formulario" target="_blank">Formulário</a>
+                <a href="https://github.com/emanoelanrs/app-help-desk" target="_blank">HelpDesk</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Contato">
+        <h2>Contato</h2>
+        <form class="form_contato">
+            <div class="form_grupo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" class="input_text" />
+            </div>
+            <div class="form_grupo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="input_text" />
+            </div>
+            <div class="form_grupo">
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" class="input_textarea"></textarea>
+            </div>
+            <div class="form_grupo">
+                <input type="submit" value="Enviar" class="submit_button" />
+            </div>
+        </form>
+    </section>
+<!-- Rodapé da página -->
+    <div class="rodape">
+        <p> Emanoela Neris <i class='bx bx-copyright'></i> 2024</p>
+    </div>
+<!-- ícone para retornar ao começo - Sobre Mim -->
+    <a href="#Mim" class="inicio"><i class='bx bx-up-arrow-alt'></i></a>
+</body>
+</html>

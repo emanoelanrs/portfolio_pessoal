@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    color: #efe6eafc;
+    background-color: #6C0F3D;
+}
+/* Cabeçalho - Menu da página*/
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #d1769b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.cabecalho a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.cabecalho a:hover {
+    color: rgba(248, 177, 181, 0.881);
+}
+/*Página Principal*/
+.pagina_principal {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.pagina_principal_conteudo {
+    max-width: 600px;
+}
+.pagina_principal_conteudo h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 3px 0;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F5A3CC;
+}
+.pagina_principal_conteudo h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.pagina_principal_redes_sociais a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid rgb(171, 14, 100);
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(240, 238, 241);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.pagina_principal_redes_sociais a:hover {
+    background:#F17EB8;
+    color: #FDEDF5;
+}
+/*Estilo para imagem da Home*/
+.pagina_principal_img {
+    display: inline-block;
+    left: 55%;
+    bottom: 15%;
+    margin-right: 5%;
+    padding: 0;
+    background-position: center center;
+    position: absolute;
+}
+.bordas_img {
+    width: 80%;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* Estilo para o rodapé da página*/
+.rodape{
+    width: 100%;
+    text-align:center;
+    padding: 25px;
+    background: #cd648e;
+    font-weight: 300;
+    margin-top: 0px;
+}
+/*Responsividade das telas*/
+@media (max-width: 900px) and (min-width: 500px) {
+    .cabecalho{
+        display:block;
+    }
+    .cabecalho a {
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 0px;
+        padding: 10px 10px 0 0;
+    }  
+}

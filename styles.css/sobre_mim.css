@@ -1,0 +1,41 @@
+/* Estilização da about (Sobre mim)*/
+.sobre_mim {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 70px 5% 0;
+}
+.sobre_mim_img {
+    display: inline-block;
+    background-position: center;
+    padding-right: 10%;
+    margin-top: 2.5%;
+    opacity: 1;
+}
+.sobre_mim_perfil {
+    width: 100%;
+    height: auto;
+    max-width: 492px;
+    max-height: 492px;
+    border-radius: 90px;
+    box-shadow: 0 0 3pc rgb(202, 14, 193);
+}
+.sobre_mim_texto {
+    margin-right: 2%;
+}
+.sobre_mim_texto h2 {
+    font-size: 60px;
+    letter-spacing: 5px; 
+}
+.sobre_mim_texto p {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
